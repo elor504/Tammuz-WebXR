@@ -2,3 +2,10 @@
 * text=auto
 *.unityweb filter=lfs diff=lfs merge=lfs -text
 *.data filter=lfs diff=lfs merge=lfs -text
+
+*.data application/octet-stream
+*.wasm application/wasm
+*.symbols.json application/json
+*.js text/javascript
+*.mem application/octet-stream
+*.unityweb application/octet-stream
