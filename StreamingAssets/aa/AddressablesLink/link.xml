@@ -2,7 +2,6 @@
   <assembly fullname="Tammuz_Ur, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Controller.UrMovementController" preserve="all" />
     <type fullname="CustomButton" preserve="all" />
-    <type fullname="OptimiziationUtility.TryApplyTargetFPS" preserve="all" />
     <type fullname="Tammuz.UR_Game.UrControllerInteraction" preserve="all" />
     <type fullname="UR_Game.AIUrGamePlayer" preserve="all" />
     <type fullname="UR_Game.PlayerUrGamePiece" preserve="all" />
