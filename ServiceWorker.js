@@ -1,4 +1,4 @@
-const cacheName = "CloverBite _ Bad GOAT-Tammuz Game Of UR-0.0.6f1";
+const cacheName = "CloverBite _ Bad GOAT-Tammuz Game Of UR-0.0.7f1";
 const contentToCache = [
     "Build/Tammuz-WebXR.loader.js",
     "Build/Tammuz-WebXR.framework.js",
