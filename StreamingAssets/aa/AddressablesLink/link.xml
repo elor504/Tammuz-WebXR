@@ -12,6 +12,7 @@
     <type fullname="UR_Game.Visuals.Dice_Roll.DiceRollHandler" preserve="all" />
     <type fullname="UR_Game.Visuals.Dice_Roll.DieFaceManager" preserve="all" />
     <type fullname="UR_Game.Visuals.Dice_Roll.DieManager" preserve="all" />
+    <type fullname="VersionText" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />

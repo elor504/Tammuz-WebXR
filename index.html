@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-  <script src="TemplateData/profiler.js"></script>
   </head>
   <body>
     <div id="unity-container">
@@ -61,13 +60,13 @@
       var loaderUrl = buildUrl + "/Tammuz-WebXR.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Tammuz-WebXR.data",
-        frameworkUrl: buildUrl + "/Tammuz-WebXR.framework.js",
-        codeUrl: buildUrl + "/Tammuz-WebXR.wasm",
+        dataUrl: buildUrl + "/Tammuz-WebXR.data.unityweb",
+        frameworkUrl: buildUrl + "/Tammuz-WebXR.framework.js.unityweb",
+        codeUrl: buildUrl + "/Tammuz-WebXR.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CloverBite _ Bad GOAT",
         productName: "Tammuz Game Of UR",
-        productVersion: "0.0.7f1",
+        productVersion: "0.0.9f0",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
@@ -102,11 +101,6 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-          var profile = unityProfiler.createButton(unityInstance);
-          profile.style.position = 'fixed';
-          profile.style.bottom = '5px';
-          profile.style.left = '5px';
-          document.body.appendChild(profile);
         }).catch((message) => {
           alert(message);
         });
