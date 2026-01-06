@@ -2,6 +2,10 @@
   <assembly fullname="Tammuz_Ur, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Controller.UrMovementController" preserve="all" />
     <type fullname="CustomButton" preserve="all" />
+    <type fullname="MetaStoreLink" preserve="all" />
+    <type fullname="Obelisks" preserve="all" />
+    <type fullname="PhasesMediator" preserve="all" />
+    <type fullname="Tammuz.GameManager" preserve="all" />
     <type fullname="Tammuz.UR_Game.UrControllerInteraction" preserve="all" />
     <type fullname="UR_Game.AIUrGamePlayer" preserve="all" />
     <type fullname="UR_Game.PlayerUrGamePiece" preserve="all" />
@@ -13,6 +17,7 @@
     <type fullname="UR_Game.Visuals.Dice_Roll.DieFaceManager" preserve="all" />
     <type fullname="UR_Game.Visuals.Dice_Roll.DieManager" preserve="all" />
     <type fullname="VersionText" preserve="all" />
+    <type fullname="XrmrSwitcher" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -38,21 +43,27 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.XR.ARFoundation.ARCameraManager" preserve="all" />
+    <type fullname="UnityEngine.XR.ARFoundation.ARSession" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.LookAtConstraint" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
-    <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
@@ -76,7 +87,6 @@
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
-    <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
@@ -92,6 +102,9 @@
   <assembly fullname="WebXR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="WebXR.WebXRCameraSettings" preserve="all" />
     <type fullname="WebXR.WebXRController" preserve="all" />
+  </assembly>
+  <assembly fullname="WebXR.InputSystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="WebXR.InputSystem.WebXRInputSystem" preserve="all" />
   </assembly>
   <assembly fullname="WebXR.Samples.Scripts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="WebXR.Interactions.FPSCounter" preserve="all" />
